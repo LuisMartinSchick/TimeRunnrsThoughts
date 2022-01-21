@@ -1,9 +1,10 @@
 module.exports = {
     siteMetadata: {
       title: `TimeRunnr's Thoughts`,
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://blog.luismartinschick.com`,
     },
     plugins: [
-
+        "gatsby-plugin-image",
+        "gatsby-plugin-sharp",
     ]
 }
